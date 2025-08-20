@@ -137,4 +137,52 @@ export class Picture {
             'assets/img/5_background/layers/air.png'
         ]
     }
+
+    static bottle = {
+        rotate: [
+            'assets/img/6_salsa_bottle/bottle_rotation/1_bottle_rotation.png',
+            'assets/img/6_salsa_bottle/bottle_rotation/2_bottle_rotation.png',
+            'assets/img/6_salsa_bottle/bottle_rotation/3_bottle_rotation.png',
+            'assets/img/6_salsa_bottle/bottle_rotation/4_bottle_rotation.png'
+        ],
+        splash: [
+            'assets/img/6_salsa_bottle/bottle_rotation/bottle_splash/1_bottle_splash.png',
+            'assets/img/6_salsa_bottle/bottle_rotation/bottle_splash/2_bottle_splash.png',
+            'assets/img/6_salsa_bottle/bottle_rotation/bottle_splash/3_bottle_splash.png',
+            'assets/img/6_salsa_bottle/bottle_rotation/bottle_splash/4_bottle_splash.png',
+            'assets/img/6_salsa_bottle/bottle_rotation/bottle_splash/5_bottle_splash.png',
+            'assets/img/6_salsa_bottle/bottle_rotation/bottle_splash/6_bottle_splash.png'
+        ],
+        bottleGround: [
+            'assets/img/6_salsa_bottle/1_salsa_bottle_on_ground.png',
+            'assets/img/6_salsa_bottle/2_salsa_bottle_on_ground.png'
+        ]
+    }
+
+    static statusBar = {
+        coin: [
+            'assets/img/7_statusbars/1_statusbar/1_statusbar_coin/green/0.png',
+            'assets/img/7_statusbars/1_statusbar/1_statusbar_coin/green/20.png',
+            'assets/img/7_statusbars/1_statusbar/1_statusbar_coin/green/40.png',
+            'assets/img/7_statusbars/1_statusbar/1_statusbar_coin/green/60.png',
+            'assets/img/7_statusbars/1_statusbar/1_statusbar_coin/green/80.png',
+            'assets/img/7_statusbars/1_statusbar/1_statusbar_coin/green/100.png'
+        ],
+        health: [
+            'assets/img/7_statusbars/1_statusbar/2_statusbar_health/green/0.png',
+            'assets/img/7_statusbars/1_statusbar/2_statusbar_health/green/20.png',
+            'assets/img/7_statusbars/1_statusbar/2_statusbar_health/green/40.png',
+            'assets/img/7_statusbars/1_statusbar/2_statusbar_health/green/60.png',
+            'assets/img/7_statusbars/1_statusbar/2_statusbar_health/green/80.png',
+            'assets/img/7_statusbars/1_statusbar/2_statusbar_health/green/100.png'
+        ],
+        bottle: [
+            'assets/img/7_statusbars/1_statusbar/3_statusbar_bottle/green/0.png',
+            'assets/img/7_statusbars/1_statusbar/3_statusbar_bottle/green/20.png',
+            'assets/img/7_statusbars/1_statusbar/3_statusbar_bottle/green/40.png',
+            'assets/img/7_statusbars/1_statusbar/3_statusbar_bottle/green/60.png',
+            'assets/img/7_statusbars/1_statusbar/3_statusbar_bottle/green/80.png',
+            'assets/img/7_statusbars/1_statusbar/3_statusbar_bottle/green/100.png'
+        ]
+    }
 }
