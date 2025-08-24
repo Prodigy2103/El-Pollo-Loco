@@ -1,6 +1,9 @@
-// TODO: character.js, chicken.js importieren
+// TODO: character.js, chicken.js importieren FIXED
 
-class World {
+import { Character } from "../models/character.class.js";
+import { Chicken } from "../models/chicken.class.js";
+
+export class World {
     character = new Character(); // variable des character erbt hier von der superclass MovableObject
     enemies = [
         new Chicken(),

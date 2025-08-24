@@ -1,3 +1,5 @@
+import { World } from "../models/world.class.js";
+
 let canvas;
 // let character = new Image(); // Variable des character wird als ein neues Bild-Objekt (Image) erstellt.
 let world;
