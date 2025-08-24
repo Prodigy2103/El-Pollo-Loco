@@ -1,19 +1,20 @@
 let canvas;
-let ctx;
-let character = new Character();
-let enemies = [
-    new Chicken(),
-    new Chicken(),
-    new Chicken(),
-]
+// let character = new Image(); // Variable des character wird als ein neues Bild-Objekt (Image) erstellt.
+let world;
 
 
 function init() {
     canvas = document.getElementById('canvas');
-    ctx = canvas.getContext('2d');
+    world = new World(canvas);
+    
 
-    console.log('My Character is', character);
-    console.log('My Chicken is', enemies);
+
+    // character.src = './assets/img/2_character_pepe/2_walk/W-21.png'; // Der Pfad zum Bild wird dem character-Objekt zugewiesen, wodurch das Bild geladen wird.
+
+    // ctx.drawImage(character, 20, 20, 50, 150); // Das geladene Bild (character) wird an den Koordinaten (20, 20) auf den Canvas gezeichnet und auf eine Größe von 50 x 150 Pixeln skaliert.
+
+    console.log('My character is', world.character);
+    console.log('My Chicken is', world.enemies);
 }
 
 init();
